@@ -52,7 +52,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
-          repo: DongshanPI/Allwinner-Docs
+          repo: 100askTeam/Allwinner-Docs
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
           fqdn: allwinner-docs.100ask.net
