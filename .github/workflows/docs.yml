@@ -55,6 +55,6 @@ jobs:
           repo: 100askTeam/Allwinner-Docs
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
-          fqdn: allwinner-docs.100ask.net
+          fqdn: allwinner-docs.100ask.org
         env:
           GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
