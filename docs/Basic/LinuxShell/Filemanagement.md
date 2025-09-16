@@ -47,7 +47,7 @@ cd  ../..   //表示切换到 上上级目录。
 >  可以使用 cp --help去查看官方说明。将指定的<源文件>复制至<目标文件>，或将多个<源文件>复制至<目标目录>。
 
 ``` bash
-cp -r DIR1 DIR1   //复制DIR1目录到DIR2目录
+cp -r DIR1 DIR2   //复制DIR1目录到DIR2目录
 cp file1 file2	  //复制file1文件到file2
 cp -d link DIR    //复制一个链接文件到DIR目录内
 cp -p file1 file3 //复制file1文件及所有属性到file3
